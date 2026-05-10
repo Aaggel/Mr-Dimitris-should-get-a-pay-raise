@@ -5,7 +5,7 @@ Project's scenario was the prediction of whether a person will have side-effects
 
 Original prompt :
 "Let's assume that an experimental drug was tested on people aged 13 to 100 in a clinical trial.
-\nThe trial involved 3000 participants. Half of the participants were under 65 years old, and the
+The trial involved 3000 participants. Half of the participants were under 65 years old, and the
 other half were 65 years old and above.
 The trial showed that approximately 90% of patients aged 65 and over experienced side
 effects from the drug, while approximately 90% of patients under 65 did not experience side
@@ -38,3 +38,5 @@ neural network if it has been trained correctly.
 Finally, visually represent your conclusions with a Confusion matrix or in any desired way for
 each different case you performed above and record your observations. Explain
 the code you created."
+
+(I'm sorry if it looks weird, I don't know how to make the spaces show properly :'))
