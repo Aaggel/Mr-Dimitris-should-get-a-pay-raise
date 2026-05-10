@@ -118,7 +118,8 @@ def train_and_evaluate(model, x_train, x_test, y_train, y_test, epochs, batch_si
     print("========≽^- ˕ -^≼========")
     print("Accuracy:", accuracy)
     print("Confusion Matrix:")
-    print(cm + "\n    /)/)\n( ˶•༝•)\n୭( づ✿")
+    print(cm)
+    print("\n    /)/)\n( ˶•༝•)\n୭( づ✿")
     # για να κρατάει τις καλύτερες περιπτώσεις / to keep the best cases
     if title == "CASE1":
         results_case1.append((cm, accuracy))
