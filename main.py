@@ -29,9 +29,9 @@ def generate_data(samples):
         else:
             prob += 0.1 # -90%
         if weight >= 70:
-            prob += 0.05 # -10%
+            prob += 0.05 # +10%
         else:
-            prob -= 0.05 # +10%
+            prob -= 0.05 # -10%
         prob = max(0, min(1, prob)) 
         label = 1 if np.random.rand() < prob else 0 # για να μην βγαίνουν πάντα τα ίδια / element of surprise!
         labels.append(label)
